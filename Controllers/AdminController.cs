@@ -11,9 +11,9 @@ namespace WebApplication3.Controllers
             this.fd = fd;
         }
 
-        public IActionResult Index()
-        {  
-            return View(fd.UserList.ToList());
-        }
+        //public IActionResult Index()
+        //{  
+        //    return View(fd.UserList.ToList());
+        //}
     }
 }

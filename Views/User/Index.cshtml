@@ -37,9 +37,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Pincode)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.Password)
-            </th>
+            </th>*@
             <th></th>
         </tr>
     </thead>
@@ -73,11 +73,11 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Pincode)
             </td>
-            <td>
+           @* <td>
                 @Html.DisplayFor(modelItem => item.Password)
-            </td>
+            </td>*@
             <td>
-                <a asp-action="Edit" asp-route-id="@item.UserId">Edit</a> |
+                @*<a asp-action="Edit" asp-route-id="@item.UserId">Edit</a> |*@
                 <a asp-action="Details" asp-route-id="@item.UserId">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.UserId">Delete</a>|
                 <a asp-action="ViewReport"  asp-route-UserId="@item.UserId">View Order Report</a>|

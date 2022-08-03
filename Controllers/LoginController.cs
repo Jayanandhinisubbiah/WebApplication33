@@ -27,9 +27,9 @@ namespace WebApplication3.Controllers
             fd.UserList.Add(U);
             fd.SaveChanges();
             if (U.Role == "Admin")
-                return RedirectToAction("Index", "Admin");
-            else
                 return RedirectToAction("Index", "User");
+            else
+                return RedirectToAction("Index", "Foods");
         }
         public IActionResult Login()
         {
