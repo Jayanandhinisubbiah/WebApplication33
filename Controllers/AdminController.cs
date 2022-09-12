@@ -15,5 +15,9 @@ namespace WebApplication3.Controllers
         //{  
         //    return View(fd.UserList.ToList());
         //}
+        //public IActionResult Index()
+        //{  
+        //    return View(fd.UserList.ToList());
+        //}
     }
 }
